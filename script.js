@@ -6,7 +6,7 @@ document.getElementById('blogForm').addEventListener('submit', function(e) {
     console.log("Submitting blog content:", blogContent); // Log the blog content being submitted
 
     // Use the ngrok URL for the backend service
-    const ngrokURL = 'https://7adc-99-246-144-174.ngrok-free.app/submit';
+    const ngrokURL = 'https://5520-99-246-144-174.ngrok-free.app/submit';
 
     // Send the blog content to the backend using a POST request
     fetch(ngrokURL, {
