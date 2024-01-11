@@ -6,7 +6,7 @@ document.getElementById('blogForm').addEventListener('submit', function(e) {
     console.log("Submitting blog content:", blogContent); // Log the blog content being submitted
 
     // Use the ngrok URL for the backend service
-    const ngrokURL = 'https://ea49-99-246-144-174.ngrok-free.app/submit-blog';
+    const ngrokURL = 'https://739a-99-246-144-174.ngrok-free.app/submit-blog';
 
     // Send the blog content to the backend using a POST request
     fetch(ngrokURL, {
@@ -37,7 +37,7 @@ document.getElementById('tiktokForm').addEventListener('submit', function(e) {
     const tiktokURL = this.tiktokURL.value;
     console.log("Submitting TikTok URL:", tiktokURL);
 
-    const ngrokURL = 'https://f3f8-99-246-144-174.ngrok-free.app/submit-tiktok';
+    const ngrokURL = 'https://739a-99-246-144-174.ngrok-free.app/submit-tiktok';
 
     fetch(ngrokURL, {
         method: 'POST',
